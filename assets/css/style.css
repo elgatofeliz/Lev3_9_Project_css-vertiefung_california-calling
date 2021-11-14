@@ -36,6 +36,7 @@ main > section,
 footer {
   padding: 0 8vw;
   max-width: 1440px;
+  overflow: hidden;
 }
 
 /*==================================================
@@ -314,6 +315,7 @@ footer {
   background-color: #000;
   color: #fff;
   overflow: hidden;
+  margin: 0 0 0 0;
   /*=== Text Banner ===*/
   /*=== Footer Text ===*/
 }
