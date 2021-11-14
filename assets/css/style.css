@@ -1,0 +1,529 @@
+/*==================================================
+                        FONTS
+==================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
+@font-face {
+  font-family: Larish;
+  src: url(../fonts/LarishNeueSemibold.woff);
+}
+/*
+font-family: 'Work Sans', sans-serif;
+font-family: 'Larish', serif;
+*/
+p, span, a, li {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Larish", serif;
+}
+
+/*==================================================
+                    General Styles
+==================================================*/
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+main > section,
+footer {
+  padding: 0 8vw;
+  max-width: 1440px;
+}
+
+/*==================================================
+                    Header Styles
+==================================================*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+}
+header #verticalLine {
+  width: 0;
+  height: 220px;
+  border: 1px solid #fff;
+  margin-bottom: 5vh;
+  opacity: 0.5;
+}
+header span,
+header h1:nth-of-type(1),
+header p,
+header a {
+  color: #fff;
+}
+header span, header p {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 2vh 0;
+  letter-spacing: -1.5px;
+  font-weight: 500;
+}
+header h1 {
+  font-size: 9.5rem;
+  line-height: 8rem;
+}
+header h1:nth-of-type(2) {
+  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
+}
+header #headerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15vh 0 20vh 0;
+}
+header #headerBottom img {
+  transform: scale(125%);
+}
+header #headerBottom a {
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 2vh 3vw;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+header #headerBottom a:active {
+  background-color: #fff;
+  opacity: 0.3;
+  color: #000;
+}
+
+/*==================================================
+                    Main Styles
+==================================================*/
+/*===== Section 1 - Last Year =====*/
+section:nth-of-type(1) {
+  background-color: #000;
+  color: #fff;
+  padding: 21vh 0 15vh 8vw;
+}
+section:nth-of-type(1) h2 {
+  font-size: 10rem;
+}
+section:nth-of-type(1) p {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 1vh;
+}
+section:nth-of-type(1) div {
+  margin-bottom: 5vh;
+  background: url(../img/map.svg) right/contain no-repeat;
+}
+section:nth-of-type(1) div p:nth-of-type(1) {
+  padding-top: 15vh;
+}
+section:nth-of-type(1) div h3 {
+  font-size: 12rem;
+}
+
+/*===== Section 2 - Gallery =====*/
+section:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0;
+  /*=== Bilder und Text formatieren ===*/
+  /*=== Bilder und Text positionieren ===*/
+}
+section:nth-of-type(2) img {
+  width: 100%;
+  height: 100%;
+}
+section:nth-of-type(2) #text1 {
+  max-width: 500px;
+  min-height: 320px;
+}
+section:nth-of-type(2) #text1 h2 {
+  font-size: 9rem;
+  line-height: 85px;
+}
+section:nth-of-type(2) #text1 p {
+  font-size: 1.8rem;
+  line-height: 35px;
+}
+section:nth-of-type(2) #text2 {
+  max-width: 510px;
+  min-height: 190px;
+}
+section:nth-of-type(2) #text2 p {
+  font-size: 1.7rem;
+  line-height: 35px;
+}
+section:nth-of-type(2) .size1 {
+  max-width: 360px;
+}
+section:nth-of-type(2) .size2 {
+  max-width: 300px;
+}
+section:nth-of-type(2) .size3 {
+  max-width: 480px;
+}
+section:nth-of-type(2) div:nth-of-type(1) {
+  align-self: flex-end;
+  margin: -10vh 8vw 0 0;
+}
+section:nth-of-type(2) div:nth-of-type(2) {
+  align-self: flex-start;
+  margin: 17vh 0 0 4vw;
+}
+section:nth-of-type(2) div:nth-of-type(3) {
+  margin: -4vh 0 0 0;
+}
+section:nth-of-type(2) div:nth-of-type(4) {
+  align-self: flex-end;
+  margin: -7vh 0 0 0;
+}
+section:nth-of-type(2) div:nth-of-type(5) {
+  align-self: flex-start;
+  margin: 3vh 0 0 17vw;
+}
+section:nth-of-type(2) div:nth-of-type(6) {
+  align-self: flex-end;
+  margin: -3vh 13vw 0 0;
+}
+section:nth-of-type(2) div:nth-of-type(7) {
+  align-self: flex-start;
+  margin: 10vh 0 -19vh 0;
+}
+section:nth-of-type(2) div:nth-of-type(9) {
+  align-self: flex-end;
+  margin: 11vh 20vw -9vh 0;
+}
+
+/*===== Section 3 - the Golden Bear =====*/
+section:nth-of-type(3) {
+  background-color: #000;
+  color: #fff;
+  margin-bottom: -15vh;
+}
+section:nth-of-type(3) article:nth-of-type(1) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 25vh;
+}
+section:nth-of-type(3) article:nth-of-type(1) div:nth-of-type(1) {
+  width: 360px;
+}
+section:nth-of-type(3) article:nth-of-type(1) div:nth-of-type(1) p {
+  font-size: 2.5rem;
+  padding: 2vh;
+}
+section:nth-of-type(3) article:nth-of-type(1) div:nth-of-type(1) h2 {
+  font-size: 9rem;
+  line-height: 85px;
+}
+section:nth-of-type(3) article:nth-of-type(1) div:nth-of-type(2) {
+  max-width: 550px;
+  padding-top: 7vh;
+}
+section:nth-of-type(3) article:nth-of-type(1) div:nth-of-type(2) p {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Larish", serif;
+}
+section:nth-of-type(3) article:nth-of-type(1) div:nth-of-type(2) span {
+  display: inline-block;
+  font-size: 2rem;
+  padding-top: 2vh;
+}
+section:nth-of-type(3) article:nth-of-type(2) {
+  display: flex;
+  transform: translateY(20vh);
+}
+section:nth-of-type(3) article:nth-of-type(2) img {
+  width: 100%;
+}
+section:nth-of-type(3) article:nth-of-type(2) figure:nth-of-type(1) {
+  max-width: 800px;
+}
+section:nth-of-type(3) article:nth-of-type(2) figure:nth-of-type(2) {
+  max-width: 400px;
+  margin: 20vh 0 0 -5vw;
+}
+
+section:nth-of-type(4) {
+  /*===== Section 4 - the Poppy Bear =====*/
+  overflow: hidden;
+}
+section:nth-of-type(4) > figure > img {
+  width: 35vw;
+  margin-left: 68vw;
+  animation: turnTables 4s linear infinite;
+  position: relative;
+  z-index: -1;
+}
+section:nth-of-type(4) article:nth-of-type(1) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(1) {
+  max-width: 360px;
+}
+section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(1) p {
+  font-size: 2.5rem;
+  padding: 2vh;
+}
+section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(1) h2 {
+  font-size: 9rem;
+  line-height: 85px;
+}
+section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(2) {
+  max-width: 550px;
+  padding-top: 7vh;
+}
+section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(2) p {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Larish", serif;
+}
+section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(2) span {
+  display: inline-block;
+  font-size: 2rem;
+  padding-top: 2vh;
+}
+section:nth-of-type(4) > article:nth-of-type(2) {
+  display: flex;
+  padding: 25vh 0 12vh 0;
+}
+section:nth-of-type(4) > article:nth-of-type(2) img {
+  width: 100%;
+}
+section:nth-of-type(4) > article:nth-of-type(2) > figure:nth-of-type(1) {
+  width: 400px;
+  margin: 20vh 0 0 5vw;
+  position: relative;
+  z-index: 1;
+}
+section:nth-of-type(4) > article:nth-of-type(2) > figure:nth-of-type(2) {
+  width: 800px;
+  margin-left: -5vw;
+}
+
+footer {
+  /*=== Footer ===*/
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+  /*=== Text Banner ===*/
+  /*=== Footer Text ===*/
+}
+footer > div {
+  background: #fff;
+  width: 3500px;
+  transform: rotate(45deg) translate(59vw, 83vh);
+  animation: textTables 10s linear infinite alternate;
+}
+footer > div > span {
+  font-size: 10rem;
+  font-family: "Larish", serif;
+}
+footer > div > span:nth-of-type(odd) {
+  color: #fff;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+footer > div > span:nth-of-type(even) {
+  color: #000;
+}
+footer article:nth-of-type(1) {
+  width: 37vw;
+  padding: 12vh 0 10vh 0;
+}
+footer article:nth-of-type(1) span {
+  display: inline-block;
+  padding: 2vh 0;
+  font-size: 1.5rem;
+}
+footer article:nth-of-type(1) p {
+  font-family: "Larish", serif;
+  font-size: 3.5rem;
+}
+footer article:nth-of-type(1) a {
+  text-decoration: none;
+  border: 2px solid #fff;
+  margin-top: 2vh;
+  padding: 2vh 3vw;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #fff;
+  display: inline-block;
+}
+footer article:nth-of-type(1) a:active {
+  background-color: #fff;
+  opacity: 0.3;
+  color: #000;
+}
+footer article:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3vh;
+  align-items: center;
+}
+footer article:nth-of-type(2) > ul {
+  list-style: none;
+}
+footer article:nth-of-type(2) > ul li {
+  padding: 1vh 0;
+  font-size: 2rem;
+}
+footer article:nth-of-type(2) > ul li img {
+  width: 25px;
+}
+footer article:nth-of-type(2) > figure > img {
+  width: 80px;
+}
+
+@keyframes turnTables {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes textTables {
+  from {
+    transform: rotate(45deg) translate(59vw, 83vh);
+  }
+  to {
+    transform: rotate(45deg) translate(-100vw, 83vh);
+  }
+}
+@media screen and (max-width: 800px) {
+  header,
+main > section,
+footer {
+    padding: 0 5vw;
+  }
+
+  /*===== Section 1 - Last Year =====*/
+  main > section:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 21vh 8vw 15vh 8vw;
+  }
+  main > section:nth-of-type(1) h2 {
+    font-size: 5rem;
+  }
+  main > section:nth-of-type(1) div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*===== Section 2 - Gallery =====*/
+  main > section:nth-of-type(2) {
+    padding: 0 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main > section:nth-of-type(2) div {
+    padding: 2vh 0;
+  }
+  main > section:nth-of-type(2) div:nth-of-type(1) {
+    align-self: center;
+    margin: 0 0 0 0;
+  }
+  main > section:nth-of-type(2) div:nth-of-type(2) {
+    align-self: center;
+    margin: 0 0 0 0;
+  }
+  main > section:nth-of-type(2) div:nth-of-type(3) {
+    align-self: center;
+    margin: 0 0 0 0;
+  }
+  main > section:nth-of-type(2) div:nth-of-type(4) {
+    align-self: center;
+    margin: 0 0 0 0;
+  }
+  main > section:nth-of-type(2) div:nth-of-type(5) {
+    align-self: center;
+    margin: 0 0 0 0;
+  }
+  main > section:nth-of-type(2) div:nth-of-type(6) {
+    align-self: center;
+    margin: 0 0 0 0;
+  }
+  main > section:nth-of-type(2) div:nth-of-type(7) {
+    align-self: center;
+    margin: 0 0 0 0;
+  }
+  main > section:nth-of-type(2) div:nth-of-type(9) {
+    align-self: center;
+    margin: 0 0 0 0;
+  }
+
+  /*===== Section 3 - the Golden Bear =====*/
+  main > section:nth-of-type(3) {
+    padding-bottom: 1vh;
+  }
+
+  main > section:nth-of-type(3) > article:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+  }
+
+  main > section:nth-of-type(3) > article:nth-of-type(2) {
+    transform: translateY(0);
+    margin: 5vh 0;
+  }
+  main > section:nth-of-type(3) > article:nth-of-type(2) > figure:nth-of-type(2) {
+    margin: 5vh 0 0 -5vw;
+  }
+
+  /*===== Section 4 - the Poppy Bear =====*/
+  main > section:nth-of-type(4) > figure > img {
+    margin-top: 5vh;
+  }
+
+  main > section:nth-of-type(4) > article:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main > section:nth-of-type(4) > article:nth-of-type(2) {
+    display: flex;
+    padding: 3vh 0 10vh 0;
+  }
+  main > section:nth-of-type(4) > article:nth-of-type(2) > figure:nth-of-type(1) {
+    margin: 5vh 0 0 5vw;
+  }
+
+  > article:nth-of-type(3) {
+    padding-top: 3vh;
+  }
+}
+/*=== Footer ===*/
+footer > article:nth-of-type(1) {
+  width: 70vw;
+}
+
+@media screen and (max-width: 400px) {
+  header > h1 {
+    font-size: 5rem;
+  }
+
+  main > section:nth-of-type(1) > div > h3 {
+    font-size: 5rem;
+  }
+
+  main > section:nth-of-type(4) > article:nth-of-type(2) {
+    padding: 3vh 0 5vh 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
