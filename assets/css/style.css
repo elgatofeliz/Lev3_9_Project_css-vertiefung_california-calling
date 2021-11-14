@@ -503,15 +503,11 @@ footer {
     margin: 5vh 0 0 5vw;
   }
 
-  > article:nth-of-type(3) {
-    padding-top: 3vh;
+  /*=== Footer ===*/
+  footer > article:nth-of-type(1) {
+    width: 70vw;
   }
 }
-/*=== Footer ===*/
-footer > article:nth-of-type(1) {
-  width: 70vw;
-}
-
 @media screen and (max-width: 400px) {
   header > h1 {
     font-size: 5rem;
@@ -519,6 +515,10 @@ footer > article:nth-of-type(1) {
 
   main > section:nth-of-type(1) > div > h3 {
     font-size: 5rem;
+  }
+
+  main > section:nth-of-type(4) > figure > img {
+    margin-top: 10vh;
   }
 
   main > section:nth-of-type(4) > article:nth-of-type(2) {
