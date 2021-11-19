@@ -36,7 +36,6 @@ main > section,
 footer {
   padding: 0 8vw;
   max-width: 1440px;
-  overflow: hidden;
 }
 
 /*==================================================
@@ -252,60 +251,60 @@ section:nth-of-type(3) article:nth-of-type(2) figure:nth-of-type(2) {
   margin: 20vh 0 0 -5vw;
 }
 
-section:nth-of-type(4) {
+main > section:nth-of-type(4) {
   /*===== Section 4 - the Poppy Bear =====*/
   overflow: hidden;
 }
-section:nth-of-type(4) > figure > img {
+main > section:nth-of-type(4) > figure > img {
   width: 35vw;
   margin-left: 68vw;
   animation: turnTables 4s linear infinite;
   position: relative;
   z-index: -1;
 }
-section:nth-of-type(4) article:nth-of-type(1) {
+main > section:nth-of-type(4) article:nth-of-type(1) {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(1) {
+main > section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(1) {
   max-width: 360px;
 }
-section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(1) p {
+main > section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(1) p {
   font-size: 2.5rem;
   padding: 2vh;
 }
-section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(1) h2 {
+main > section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(1) h2 {
   font-size: 9rem;
   line-height: 85px;
 }
-section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(2) {
+main > section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(2) {
   max-width: 550px;
   padding-top: 7vh;
 }
-section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(2) p {
+main > section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(2) p {
   font-size: 3rem;
   font-weight: bold;
   font-family: "Larish", serif;
 }
-section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(2) span {
+main > section:nth-of-type(4) article:nth-of-type(1) div:nth-of-type(2) span {
   display: inline-block;
   font-size: 2rem;
   padding-top: 2vh;
 }
-section:nth-of-type(4) > article:nth-of-type(2) {
+main > section:nth-of-type(4) > article:nth-of-type(2) {
   display: flex;
   padding: 25vh 0 12vh 0;
 }
-section:nth-of-type(4) > article:nth-of-type(2) img {
+main > section:nth-of-type(4) > article:nth-of-type(2) img {
   width: 100%;
 }
-section:nth-of-type(4) > article:nth-of-type(2) > figure:nth-of-type(1) {
+main > section:nth-of-type(4) > article:nth-of-type(2) > figure:nth-of-type(1) {
   width: 400px;
   margin: 20vh 0 0 5vw;
   position: relative;
   z-index: 1;
 }
-section:nth-of-type(4) > article:nth-of-type(2) > figure:nth-of-type(2) {
+main > section:nth-of-type(4) > article:nth-of-type(2) > figure:nth-of-type(2) {
   width: 800px;
   margin-left: -5vw;
 }
