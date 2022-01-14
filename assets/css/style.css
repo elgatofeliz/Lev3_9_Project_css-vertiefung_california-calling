@@ -319,6 +319,7 @@ footer {
   /*=== Footer Text ===*/
 }
 footer > div {
+  display: none;
   background: #fff;
   width: 3500px;
   transform: rotate(45deg) translate(59vw, 83vh);
